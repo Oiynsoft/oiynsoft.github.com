@@ -92,8 +92,8 @@ br {
 .col img {
   max-width: 100%;
   width: 100%;
-  border: 1px solid black;
   height: 100%;
+  border: 1px solid black;
 }
 
 @media screen and (max-width: 500px) {
@@ -111,7 +111,6 @@ br {
   height: 100%;
   background: rgba(100, 100, 100, 0.5);
 
-  margin: 15px 15px 15px 15px;
   position: absolute;
   top: 0;
   border: 0;
