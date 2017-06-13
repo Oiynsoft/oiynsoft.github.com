@@ -12,6 +12,10 @@ a {
     text-decoration: none;
     color: black;
 }
+.txt-blue {
+    text-decoration: none;
+    color: blue;
+}
 .header {
   padding: 0 180px 0 180px;
   max-width: 1200px;
@@ -29,13 +33,25 @@ a {
   height: 30px;
 }
 
+.txt {
+  height: 15px;
+  font-size: 32px;
+
+}
 .btn-default {
   border: 1px solid grey;
+  height: 15px;
+  margin-left: 10px;
+  margin-top: 40px;
   padding: 5px 15px;
   text-decoration: none;
   color: white;
-  background: blue;
+  background: rgb(56,151,240);
   border-radius: 5px;
+}
+
+.btn-default:hover{
+  background: rgb(114,180,243);
 }
 
 .mainlogo {
@@ -62,13 +78,12 @@ br {
   position: relative;
 }
 .col1 {
-  margin-top: 50px;
   flex: 1;
   margin: 15px;
   position: relative;
 }
 .col2 {
-  margin-top: 50px;
+  padding-top: 50px;
   flex: 3;
   margin: 15px;
   position: relative;
